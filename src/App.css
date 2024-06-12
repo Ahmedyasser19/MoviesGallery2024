@@ -1,0 +1,26 @@
+.App{
+    display: flex;
+    flex-direction: row;
+         
+}
+
+
+
+
+/* Small phone */
+@media only screen and (max-width: 1500px) {
+    .App{
+        flex-direction: column;
+
+    }
+
+    .RighttBarContainer{
+        display: none !important;
+        
+    }
+
+    /* .ContentContainer{
+        width: 100vw !important;
+    } */
+
+}

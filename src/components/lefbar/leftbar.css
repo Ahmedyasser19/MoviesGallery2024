@@ -1,0 +1,70 @@
+.LeftBarContainer{
+    background-color: var(--BackGround-2);
+    display: flex;
+    flex-direction: column;
+    /* width: 15vw; */
+    height: 100vh;
+    flex: 1;
+
+}
+
+.LeftBar{
+    margin-left: 39px;
+}
+
+.Logo{
+    margin-top: 9px;
+    color: var(--BackGround-4);
+    font-size: x-large;
+}
+
+.MenusContainer{
+  
+    color: var(--BackGround-4);
+}
+
+.MenuTitle{
+opacity: 0.67;
+margin-top: 65px;
+}
+
+.MenuItem:hover{
+    border-right: 2px var(--BackGround-3) solid;
+    color: var(--BackGround-3);
+    cursor: pointer;
+}
+
+.MenuContent{
+    margin-top: 15px;
+    font-size: medium;
+}
+
+.MenuItem{
+    height: 42px;
+    display: flex;
+    align-items: center;
+    list-style: none;
+  
+
+}
+
+.MenuItem img{
+    width: 18px;
+    height: 18px;
+    margin-right: 20px;
+
+}
+
+.Icon{
+    margin-right: 25px;
+}
+
+
+@media only screen and (max-width: 1500px) {
+
+    .LeftBarContainer {
+        display: none ;
+    }
+
+
+}

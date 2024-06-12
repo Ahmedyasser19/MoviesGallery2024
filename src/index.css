@@ -1,0 +1,23 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+:root {
+  --BackGround-1: #16181E;
+  --BackGround-2: #21242D;
+  --BackGround-3: #00B9AE;
+  --BackGround-4: #F9F9F9;
+
+  --BG-4-opacity3: rgba(249,
+    249,
+    249,0.3)
+
+}
+
+body{
+  background-color: var(--BackGround-1);
+}
+

@@ -1,0 +1,9 @@
+.RighttBarContainer {
+    background-color: var(--BackGround-2);
+    display: flex;
+    flex-direction: column;
+    /* width: 15vw; */
+    flex: 1;
+    height: 100vh;
+
+}
