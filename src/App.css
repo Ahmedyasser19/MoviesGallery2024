@@ -1,26 +1,37 @@
-.App{
-    display: flex;
-    flex-direction: row;
-         
+.App {
+  display: flex;
+  flex-direction: row;
 }
 
-
-
-
 /* Small phone */
-@media only screen and (max-width: 1500px) {
-    .App{
-        flex-direction: column;
+@media (max-width: 768px) {
+  .App {
+    flex-direction: column;
+  }
 
-    }
+  .ContentContainer {
+    width: 100vw !important;
+    flex: 1 !important;
+  }
+  .NavBar {
+    flex-direction: column !important;
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+  }
 
-    .RighttBarContainer{
-        display: none !important;
-        
-    }
+  .Content {
+    margin-top: 10px !important;
+  }
+  .RighttBarContainer {
+    display: none !important;
+  }
 
-    /* .ContentContainer{
+  .BtnLow,
+  .Sliders {
+    display: none !important;
+  }
+
+  /* .ContentContainer{
         width: 100vw !important;
     } */
-
 }

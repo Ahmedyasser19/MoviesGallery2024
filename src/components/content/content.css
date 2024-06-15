@@ -1,192 +1,172 @@
-.ContentContainer{
-    background-color: var(--BackGround-1);
-    display: flex;
-    /* width: 70vw; */
-    flex: 4;
-    min-width: 75vw;
-    flex-direction: column;
-    padding: 0 68px;
-    filter: drop-shadow(5px 5px 15px var(--BackGround-1));
-
+.ContentContainer {
+  background-color: var(--BackGround-1);
+  display: flex;
+  flex: 4;
+  min-width: 75vw;
+  flex-direction: column;
+  padding: 0 68px;
+  filter: drop-shadow(5px 5px 15px var(--BackGround-1));
 }
 
-.MoviesCarosel{
-    display: flex;
-    flex-wrap: nowrap;
-    align-items: center;
-    gap: 1.2rem;
-    overflow-x: auto;
-    overflow-y: hidden;
-
+.MoviesCarosel {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  gap: 1.2rem;
+  overflow-x: auto;
+  overflow-y: hidden;
 }
 
-
-.Content{
-    display: flex;
-    overflow: hidden;
-    flex-direction: column;
+.Content {
+  display: flex;
+  overflow: hidden;
+  flex-direction: column;
 }
 
-.Banner{
-    position: relative;
-    width: 100%;
-    height: 440px;
-    overflow: hidden;
-    display: flex;
-        filter: drop-shadow(10px 10px 20px var(--BackGround-1));
-        border-radius: 1.5rem;
-
+.Banner {
+  position: relative;
+  width: 100%;
+  height: 440px;
+  overflow: hidden;
+  display: flex;
+  filter: drop-shadow(10px 10px 20px var(--BackGround-1));
+  border-radius: 1.5rem;
 }
-
-
 
 .BannerImgContainer {
-    position: absolute;
-    display: flex;
-        width: 100%;
-            height: 100%;
-    flex-direction: row;
-    opacity: 0.6;
-
-    
+  position: absolute;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  flex-direction: row;
+  opacity: 0.6;
 }
 
 .BannerImgContainer img {
-    display: flex;
-    width: 100%;
-    height: 100%;
-    background-repeat: no-repeat;
-    object-fit: cover;
-    flex-shrink: 0;
-        flex-grow: 0;
-    transition: 0.3s ease-in-out;
-
+  display: flex;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  flex-shrink: 0;
+  flex-grow: 0;
+  transition: 0.3s ease-in-out;
 }
-.BannerText{
-    width: 100%;
-    z-index:2;
-    color: var(--BackGround-4);
-    margin: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    
+.BannerText {
+  width: 100%;
+  z-index: 2;
+  color: var(--BackGround-4);
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
-.BannerText h2{
-    margin-left: 20px;
-    font-size: 42px;
-   
+.BannerText h2 {
+  margin-left: 20px;
+  font-size: 42px;
 }
 
-.BannerMid{
-    display: flex;
-    width: 100%;
-    flex-direction: row;
-    justify-content: space-between;
+.BannerMid {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
-.BtnMid{
-        height: 50px;
-            width: 50px;
-            border-radius: 1rem;
-            background-color: var(--BG-4-opacity3);
-display: flex;
-            justify-content: center;
-            align-items: center;
-            cursor: pointer;
+.BtnMid {
+  height: 50px;
+  width: 50px;
+  border-radius: 1rem;
+  background-color: var(--BG-4-opacity3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
 }
 
-.BannerMid img,.BtnMid:hover{
-    opacity: 0.8;
+.BannerMid img,
+.BtnMid:hover {
+  opacity: 0.8;
 }
 
+.Sliders {
+  height: 26px;
+  background-color: var(--BG-4-opacity3);
 
-.Sliders{
-    height: 26px;
-    background-color: var(--BG-4-opacity3);
-        
-    width: 74px;
-    border-radius: 0.5rem;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    padding: 0 0.3rem;
-    cursor: pointer;
-
+  width: 74px;
+  border-radius: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0 0.3rem;
+  cursor: pointer;
 }
 
-.Sliders img{
-    position: relative;
-    width: 10px;
-    height: 10px;
-    display: flex;
-    justify-content: space-around;
-    
+.Sliders img {
+  position: relative;
+  width: 10px;
+  height: 10px;
+  display: flex;
+  justify-content: space-around;
 }
 
-.Sliders img:hover{
-    opacity: 0.8;
-
+.Sliders img:hover {
+  opacity: 0.8;
 }
 
-
-.BannerLow{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.BannerLow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-
-.BtnLow{
-   background-color: var(--BG-4-opacity3);
-   height: 56px;
-   width: 160px;
-   border-radius: 1rem;
-   display: flex;
-   flex-direction: row;
-   align-items: center;
-   justify-content: center;
-   font-size: 18px;
-   font-weight: bolder;
-   cursor: pointer;
-    
+.BtnLow {
+  background-color: var(--BG-4-opacity3);
+  height: 56px;
+  width: 160px;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  font-weight: bolder;
+  cursor: pointer;
 }
 
-.BannerLow  .BtnLow:hover{
-    opacity: 0.9;
+.BannerLow .BtnLow:hover {
+  opacity: 0.9;
 }
 
-.Content{
-    margin-top: 45px;
-    color: var(--BackGround-4);
+.Content {
+  margin-top: 45px;
+  color: var(--BackGround-4);
 }
-.Content h2{
-    font-size: 30px;
-    margin-bottom: 25px;
+.Content h2 {
+  font-size: 30px;
+  margin-bottom: 25px;
 }
 
-.BtnLow img{
-    position: relative;
-    width: 17px;
-    height: 17px;
-
+.BtnLow img {
+  position: relative;
+  width: 17px;
+  height: 17px;
 }
 
 .WatchList {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap:1rem;
-    
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
 }
 
 .BtnMid img {
-    width: 10px;
-    height: 14px;
+  width: 10px;
+  height: 14px;
 }
 
-.BtnRight{
-    background-color: var(--BackGround-3);
-    color: #16181E;
+.BtnRight {
+  background-color: var(--BackGround-3);
+  color: #16181e;
 }
