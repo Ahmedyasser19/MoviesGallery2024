@@ -10,12 +10,12 @@ const Content = () => {
   const ApiUrl =
     "https://api.themoviedb.org/3/movie/popular?language=en-US&page=1";
 
+  const tmdb = import.meta.env.VITE_Read_Access;
   const options = {
     method: "GET",
     headers: {
       accept: "application/json",
-      Authorization:
-        "Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI5OTE5MzQ3MjhkNzg0ZDVkOWM2MzI1NzgzYTdlNTViMCIsInN1YiI6IjY1M2QwNDNkNTE5YmJiMDBjNDMzZDViNyIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.LILl3T-e0dQVw7lK_y3au7v8PuU41GCMX2Wv79D1TPQ",
+      Authorization: tmdb,
     },
   };
 
